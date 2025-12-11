@@ -1,0 +1,8 @@
+{
+    "name": "abgreeve/moodle-filter_stash",
+    "type": "moodle-filter",
+    "suggests": {
+        "abgreeve/moodle-block_stash": "The block component for the Stash collection of plugins",
+        "fmcorz/moodle-availability_stash": "An availability condition for the Stash collection of plugins"
+    }
+}
