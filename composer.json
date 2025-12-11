@@ -1,0 +1,19 @@
+{
+    "name": "abgreeve/moodle-filter_stash",
+    "type": "moodle-filter",
+    "suggests": {
+        "abgreeve/moodle-block_stash": "@dev-master",
+        "abgreeve/moodle-filter_stash": "@dev-master"
+    },
+    "require": {
+      "moodle/moodle": "*"
+    },
+    "extra": {
+        "installer-name": "stash"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
